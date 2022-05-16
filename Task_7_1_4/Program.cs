@@ -22,7 +22,7 @@ namespace Task_7_1_4
         }
         class Developer : Employee
         {
-            public string ProgrammingLanguage;
+            private string ProgrammingLanguage;
         }
     }
 }
