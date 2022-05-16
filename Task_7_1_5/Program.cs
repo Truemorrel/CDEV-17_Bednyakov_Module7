@@ -28,14 +28,8 @@ namespace Task_7_1_5
         {
             private string Name
             {
-                get
-                {
-                    return Name;
-                }
-                set
-                {
-                    Name = value;
-                }
+                get { return Name;}
+                set { Name = value; }
             }
         }
         class Apple : Fruite { }
