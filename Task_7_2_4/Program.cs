@@ -21,7 +21,6 @@ namespace Task_7_2_4
         {
             override public int Counter
             {
-                get;
                 set
                 {
                     if (value < 0)
@@ -32,7 +31,7 @@ namespace Task_7_2_4
                     {
                         Counter = value;
                     }
-                };
+                }
             }
         }
     }

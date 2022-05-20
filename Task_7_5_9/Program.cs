@@ -19,7 +19,7 @@ namespace Task_7_5_9
         }
         
     }
-    static class intExtensions
+    static class IntExtensions
     {
         public static int GetNegative(this int num)
         {
